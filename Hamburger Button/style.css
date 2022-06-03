@@ -58,7 +58,7 @@ nav a {
 }
 a:hover {
     color: indigo;
-    border-bottom: 1px solid indigo;
+    border-bottom: 2px solid indigo;
 }
 
 #close-btn {
