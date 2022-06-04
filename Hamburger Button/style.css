@@ -11,9 +11,9 @@ body {
 }
 
 button {
-    background-color: crimson;
+    background-color: #D61C4E;
     border: none;
-    color: indigo;
+    color: #001E6C;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -25,7 +25,7 @@ button:hover {
 }
 
 nav {
-    background-color: crimson;
+    background-color: #D61C4E;
     position: fixed;
     top: 0;
     right: 0;
@@ -54,15 +54,14 @@ nav a {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 500;
-    letter-spacing: 2px;
+    transition: ease-out .3s;
 }
 a:hover {
-    color: indigo;
-    border-bottom: 2px solid indigo;
+    color: #001E6C;
+    border-bottom: 2px solid #001E6C;
+    letter-spacing: 2px;
 }
 
 #close-btn {
-    position: relative;
-    top: -20px; right: -50px;
     font-size: 1.25rem;
 }
